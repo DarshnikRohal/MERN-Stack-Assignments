@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML & CSS Assignment</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        p {
+            font-family: 'Georgia', serif;
+            line-height: 1.6;
+            text-align: justify;
+        }
+        .image-container {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .image-container img {
+            width: 300px;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+        .caption {
+            font-style: italic;
+            margin-top: 10px;
+        }
+        .styled-button {
+            padding: 10px 20px;
+            border: 2px solid #333;
+            background-color: #007BFF;
+            color: white;
+            cursor: pointer;
+            font-size: 16px;
+            border-radius: 5px;
+            transition: 0.3s;
+        }
+        .styled-button:hover {
+            background-color: #0056b3;
+        }
+        table {
+            width: 50%;
+            margin: 20px auto;
+            border-collapse: collapse;
+        }
+        table, th, td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+        form {
+            width: 50%;
+            margin: 20px auto;
+        }
+        input, button {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>HTML & CSS Assignment</h1>
+    <p>This is the first paragraph of the webpage. It provides an introduction to the content displayed here.</p>
+    <p>The second paragraph elaborates on the topic, giving more insights into the subject.</p>
+    
+    <div class="image-container">
+        <img src="C:\Users\Darshnik\Desktop\docs\darshnik photo.jpg" alt="Sample Image">
+        <div class="caption">This is darshnik rohal.</div>
+    </div>
+    
+    <button class="styled-button">Click Me</button>
+    
+    <table>
+        <tr>
+            <th>Column 1</th>
+            <th>Column 2</th>
+            <th>Column 3</th>
+        </tr>
+        <tr>
+            <td>Data 1</td>
+            <td>Data 2</td>
+            <td>Data 3</td>
+        </tr>
+        <tr>
+            <td>Data 4</td>
+            <td>Data 5</td>
+            <td>Data 6</td>
+        </tr>
+    </table>
+    
+    <form>
+        <input type="text" placeholder="Enter your name">
+        <input type="email" placeholder="Enter your email">
+        <button type="submit" class="styled-button">Submit</button>
+    </form>
+</body>
+</html>
